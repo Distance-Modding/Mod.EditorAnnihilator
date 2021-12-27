@@ -8,7 +8,7 @@ Things this adds:  (Things with a * are toggleable in the mod options menu.)<br/
 <br/>
 -Medal times can be in any order. (The Diamond time can be higher than the gold time, for example.)<br/>
 <br/>
--Medal times are unbounded. (Their "minutes" can exeed 59 now, allowing for hour long medal times.)
+-Medal times are unbounded. (Their "minutes" can exeed 59 now, allowing for hour long medal times.)<br/>
 <br/>
 -Weird medal times. (You can put a negative sign at the start of the time to make it negative. Enter 'I' for infinity, '-I' for negative infinity, and 'N' for NaN medal times.)<br/>
 <br/>
