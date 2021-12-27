@@ -39,5 +39,6 @@ Does not:<br/>
 <br/>-Added toggle in the mod options for the hidden object folder and mode visibility.<br/>
 <br/>-Fixed a weird effect of the child object selector functionality (Thanks to Plamsa for showing this to me.).<br/>
 <br/>-Added toggle in the mod options for the visibility of hidden components.<br/>
+<br/>-Added toggle in the mod options for the visibility of hidden modes.<br/>
 <br/>-Added option to edit 'Level Creator Name' field.<br/>
 <br/>-Did a lot of cleaning up and getting rid of unused files.<br/>
