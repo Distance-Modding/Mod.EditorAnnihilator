@@ -77,7 +77,7 @@ namespace Mod.EditorAnnihilator
 		public void Awake()
 		{
 			Load();
-			//
+			
 			Get("ModeReq", true);
 			Get("AnimUnbounded", false);
 			Get("SNMS", false);
