@@ -1,0 +1,12 @@
+{
+	"FriendlyName": "Editor Annihilator",
+	"Author": "PB",
+	"Contact": "( .-.)",
+	"ModuleFileName": "Distance.EditorAnnihilator.dll",
+	"Dependencies": [],
+	"SkipLoad": false,
+	"Priority": 10,
+	"RequiredGSLs": [
+		"com.github.reherc/Centrifuge.Distance"
+	]
+}
