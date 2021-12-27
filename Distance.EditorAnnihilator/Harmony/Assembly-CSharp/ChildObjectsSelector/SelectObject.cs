@@ -18,12 +18,9 @@ namespace Mod.EditorAnnihilator.Harmony
         [HarmonyPrefix]
         internal static bool Prefix(ref bool __result, LevelEditor __instance, GameObject newObj)
         {
-            //Mod.Logger.Info("HOLA GIRL");
             if (Mod.SpecialObjName.StartsWith("##"))
             {
-                //Mod.Logger.Info("HOLA AMIGO");
                 String[] indexes = Mod.SpecialObjName.Substring(2).Split(',');
-                //int chileindexes = Int32.Parse(Mod.SpecialObjName.Substring(2));
                 int[] chileindexes = new int[indexes.Length];
                 for(int i = 0; i<indexes.Length; i++)
                 {
