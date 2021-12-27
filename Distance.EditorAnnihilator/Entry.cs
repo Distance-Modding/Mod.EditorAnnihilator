@@ -52,38 +52,9 @@ namespace Mod.EditorAnnihilator
             HasExitedEditor = false;
             PrintResourceDict = false;
             DevBuildForCreatorName = false;
-            //Events.MainMenu.Initialized.Subscribe(OnMainMenuInitialized);
-            //Events.QuitLevelEditor.Quit.Subscribe(OnMainMenuInitialized2);
-            //Events.MainMenu.Initialized.Unsubscribe(OnMainMenuInitialized);
-            //Events.MainMenu.Initialized.Broadcast(new Initialized.Data());
+
             CreateSettingsMenu();
-            //GameObject lamp = new GameObject();
-            //Type lamptrans = System.Type.GetType("Transform");
-            //lamp.AddComponent(lamptrans);
-            //Mod.Logger.Error("index: ");
-            //Mod.Logger.Error("index: ");
-            //Mod.Logger.Error("index: ");
-            //Mod.Logger.Error("index: ");
-            //Mod.Logger.Error("index: ");
-            //MethodInfo original = typeof(DeleteTool).GetMethod("Run");
-            
-            // retrieve all patches
-            //Patches patches = HarmonyLib.Harmony.GetPatchInfo(original);
-            /*if (patches is null)
-            { Mod.Logger.Warning("CRY"); }
-            else
-            {
-                foreach (Patch patch in patches.Prefixes)
-                {
-                    Mod.Logger.Warning("index: " + patch.index);
-                    Mod.Logger.Warning("owner: " + patch.owner);
-                    Mod.Logger.Warning("patch method: " + patch.PatchMethod);
-                    Mod.Logger.Warning("priority: " + patch.priority);
-                    Mod.Logger.Warning("before: " + patch.before);
-                    Mod.Logger.Warning("after: " + patch.after);
-                }
-            }
-            */
+
             RuntimePatcher.AutoPatch();
 
 
