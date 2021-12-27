@@ -34,8 +34,7 @@ Does not:<br/>
 <br/>
 
 # Fixes from the version pinned in the Discord:
-<br/>
-<br/>-Doesnt spew random Logger things in the console that I used to debug like it did before.<br/>
+-Doesnt spew random Logger things in the console like it did before.<br/>
 <br/>-Doesnt spew a million lines of "No level set for ______ mode, please add it to the LevelSetsManager." in the console anymore upon starting the game up.<br/>
 <br/>-Added toggle in the mod options for the hidden object folder and mode visibility.<br/>
 <br/>-Fixed a weird effect of the child object selector functionality (Thanks to Plamsa for showing this to me.).<br/>
