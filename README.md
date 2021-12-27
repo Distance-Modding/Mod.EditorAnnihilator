@@ -15,7 +15,6 @@ Things this adds:  (Things with a * are toggleable in the mod options menu.)<br/
 *-Level is savable no matter what. (Challenge mode can now have checkpoints, for example. Reverse tag with no reverse tag bubble, sprint with no end zone, ect.)<br/>
 <br/>
 *-Can place multiple level editor car spawners and multiple tag bubbles.<br/>
-<br/>
 <br/>*-Hidden objects (which were not in the dev folder or anywhere else) are now useable in a new editor folder titled "Hidden". (Toast object is in here.)<br/>
 <br/>-Can apply any component to any object. (Animators can go on dropper drones now, for example.)<br/>
 <br/>-The spline replacement tool now has a menu that includes all splines. (Before, it didn't have KillGridSpline available, for example.)<br/>
