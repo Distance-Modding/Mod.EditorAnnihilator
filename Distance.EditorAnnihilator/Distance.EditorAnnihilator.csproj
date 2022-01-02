@@ -124,6 +124,7 @@
     <Compile Include="Harmony\Assembly-CSharp\LevelSettings\MedalTimeSpanToString.cs" />
     <Compile Include="Harmony\Assembly-CSharp\LevelSettings\MedalTimeSpanTryParse.cs" />
     <Compile Include="Harmony\Assembly-CSharp\LevelSettings\NGUIVisitMedalTime.cs" />
+    <Compile Include="Harmony\Assembly-CSharp\LevelSettings\OpenLevelSelectMenu.cs" />
     <Compile Include="Harmony\Assembly-CSharp\LevelSettings\UpdateLevelSets.cs" />
     <Compile Include="Harmony\Assembly-CSharp\LevelSettings\Visit.cs" />
     <Compile Include="Harmony\Assembly-CSharp\NewObject\LevelName_.cs" />
