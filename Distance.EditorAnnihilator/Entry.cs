@@ -18,7 +18,7 @@ using UnityEngine;
 
 namespace Mod.EditorAnnihilator
 {
-    [ModEntryPoint("com.github.pred/Distance.EditorAnnihilator")]
+    [ModEntryPoint("com.github.PredatoryBalloon/Distance.EditorAnnihilator")]
     public class Mod : MonoBehaviour
     {
         public static Mod Instance;
